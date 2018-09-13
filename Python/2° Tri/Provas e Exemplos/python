@@ -1,0 +1,27 @@
+Tipos comuns de dados
+Tipo de dado	Exemplo	Python
+Inteiros	-2, -1, 0, 1, 2, 10000	int
+Ponto flutuante	-1.25, -1.0, -0.5, 1.0, 5.75	float
+Strings	'a', 'aa', "b", 'Olá!', "11 gatos"	str
+
+Operador	Operação	Exemplo	Resuldado
+**	Exponencial	2 ** 3	8
+%	Módulo/resto	22 % 8	6
+//	Divisão inteira	22 // 8	2
+/	Divisão	22 / 8	2.75
+*	Multiplicação	3 * 5	15
+-	Subtração	5 - 3	2
++	Adção	2 + 2	4
+Porcentagem = número * 0.15, no qual o 0.15 é a porcentagem que se quer -porcento
+raiz quadrada = numero ** quadrado no qual o quadrado pode se variar entre 2 quando se quer raiz quadrada e 3 quando se quer uma raiz cubica
+achar raiz = numero **(0.5)
+O nome pode ser constituído somente de uma palavra.
+Somente letras, números e o caracter underscore(_) podem ser usados.
+O nome não pode começar com um número.
+print("Eu me chamo {} e tenho {} anos." .format(nome, idade))
+nome = imput("Digite seu nome :")
+altura = float(imput("Qual sua altura?"))
+ano = int(input("Qual ano vc nasceu?"))
+idade = 2018 - ano
+print("Olá ",nome,"Voce tem ",idade,"anos")
+coloque um int ou float quando for perguntar algo usando o input-o input captura automaticamente quando string

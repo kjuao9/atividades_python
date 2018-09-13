@@ -1,0 +1,44 @@
+info1@pc21 ~/Área de Trabalho/Aulas Python/python6 $ git init
+Initialized empty Git repository in /home/info1/Área de Trabalho/Aulas Python/python6/.git/
+info1@pc21 ~/Área de Trabalho/Aulas Python/python6 $ git config
+info1@pc21 ~/Área de Trabalho/Aulas Python/python6 $ git config user.name 'Joao Paulo'
+info1@pc21 ~/Área de Trabalho/Aulas Python/python6 $ git config user.email 'kjuao9@gmail.com'
+info1@pc21 ~/Área de Trabalho/Aulas Python/python6 $ git remote add origin https://github.com/kjuao9/python6.git
+info1@pc21 ~/Área de Trabalho/Aulas Python/python6 $ git add .
+info1@pc21 ~/Área de Trabalho/Aulas Python/python6 $ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   5.py
+	new file:   dicionario.py
+	new file:   dicionario2.py
+
+info1@pc21 ~/Área de Trabalho/Aulas Python/python6 $ git comit -m 'Resolvido até o dia 10'
+git: 'comit' is not a git command. See 'git --help'.
+
+Did you mean this?
+	commit
+info1@pc21 ~/Área de Trabalho/Aulas Python/python6 $ git commit -m 'Resolvido até o dia 10'
+[master (root-commit) ed79352] Resolvido até o dia 10
+ 3 files changed, 58 insertions(+)
+ create mode 100644 5.py
+ create mode 100644 dicionario.py
+ create mode 100644 dicionario2.py
+info1@pc21 ~/Área de Trabalho/Aulas Python/python6 $ git push -u origin master
+Username for 'https://github.com': kjuao9
+Password for 'https://kjuao9@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 790 bytes | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/kjuao9/python6.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+info1@pc21 ~/Área de Trabalho/Aulas Python/python6 $ ^C
+info1@pc21 ~/Área de Trabalho/Aulas Python/python6 $ 
+

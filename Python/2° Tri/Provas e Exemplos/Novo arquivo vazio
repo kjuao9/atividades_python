@@ -1,0 +1,13 @@
+Argumentos da função range
+Definindo o início e o fim
+
+for i in range(12,16):
+	print(i)
+Definindo o incremento
+
+for i in range(0,10,2):
+	print(i)
+Outras possibilidades
+
+for i in range(5,-1,-1):
+	print(i)
